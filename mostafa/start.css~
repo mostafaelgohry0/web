@@ -1,0 +1,19 @@
+
+body{
+    background-image: url(sci.jpg) ;
+    background-size:cover;
+    background-origin: padding-box;
+    background-attachment:fixed;}
+h1{
+    color:blue;
+    text-align: center;}
+.name{
+    padding: 50px;
+   
+    font-size: 70px;
+}
+
+.soon{
+
+   font-size: 70px;
+}

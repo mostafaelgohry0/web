@@ -1,0 +1,30 @@
+.qname{
+    text-align: center;
+    color: blue;
+}
+
+
+
+h2{
+    margin-left: 20px;
+}
+
+.codelable{
+    
+    text-align: center;
+    color: aqua;
+}
+
+
+#submit{
+    
+    width: 50%;
+   margin-left: 25%;
+   
+}
+
+
+.form-control{
+    
+    border:  3px solid black;
+}

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Hani Hussein</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Ahmed Abd Elbadee">
+        <meta name="keywords" content="Android, Developer, play store">
+        <meta name="keywords" content="Android Development">
+        <link rel="stylesheet" href="css/style.css">
+        <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Fugaz+One' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <header>
+            <img class="logo" src="img/proga.jpg" />
+        </header>
+        <div class="menu">
+            <ul>
+                <a id="homeL" href="#home"><li>Home</li></a>
+                <a id="workL" href="#work"><li>My work</li></a>
+                <a id="aboutL" href="#about"><li>About</li></a>
+                <a id="contactL" href="#contact"><li>Contact Me</li></a>
+            </ul>
+        </div>
+        <div id="home" class="page home">
+            <p id="home_text" class="text">Hani Hussein<br/><br/>Android Developer</p>
+            <img id="face" class="face" src="img/img.jpg" />
+        </div>
+        <div id="work" class="page work">
+            
+        </div>
+        <div id="about" class="page about">
+            
+        </div>
+        <div id="contact" class="page contact">
+            
+        </div>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

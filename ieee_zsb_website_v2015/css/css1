@@ -1,0 +1,171 @@
+*
+{box-sizing: border-box}
+
+section 
+{
+    width: 1000px;
+    height: 250px;
+    margin: 20px auto; 
+    background-color: cyan;
+}
+.bad
+{float:left;
+    width: 25%;
+    height: 250px;
+ border: 2px  solid #86464; 
+    background-color: bisque;
+    color: blue;
+    box-shadow: -10px -10px  6px  #674804;
+     border-radius: 8px;
+    
+}
+.ragab
+{float:left;
+    width: 25%;
+    height: 250px;
+    border: 2px #975642;
+    background-color: brown;
+    color: darksalmon;
+     border-radius: 8px;
+    
+}
+.glal
+{float:right;
+    width:25%;
+    height: 250px;
+ border: 2px #86464; 
+    background-color: bisque;
+    color: blue;
+    box-shadow: 10px 10px  6px  #674804;
+     border-radius: 8px;
+}
+.wiz
+{float: right;
+    height: 250px;
+    width: 25%;
+ border: 2px #86464; 
+ border-radius: 8px;
+    background-color:red;
+    color: blue;
+}
+
+.ar 
+{
+font-size: 7px;
+background-color: aqua;
+border: 8px #red;
+    background-color: chartreuse;
+}
+.ieeeimg
+{
+    width: 1000px;
+    height: 250;
+    margin: 100px 150px  auto;
+    margin-left: 50px auto;
+    align-items: center;
+    
+}
+
+p
+{
+font-size: 70px;
+color:lawngreen;
+background-color: antiquewhite;
+}
+.ieee 
+{ 
+    margin: 0px
+    
+    background-color: beige;
+    text-decoration:underline;
+    text-transform:full-width;
+ border-color: black;
+    border-radius: 10px;
+    border-style:solid; 
+}
+.old
+{
+    color: royalblue;
+    text-decoration: line-through;
+    font-size: 30px;
+    background-color: bisque;
+}
+div.new 
+{
+    color: aqua;
+      font-size: 30px;
+    background-color: fuchsia;
+    width: 100px;
+}
+img.img 
+{
+ background-color: aqua;
+    border:30px ;border-bottom-style: inset;
+}
+button
+{
+
+    height: 65px;
+    min-width: 55px;
+    max-width: 77px
+}
+.pp
+{
+    width: 800px;
+    background-color: aqua;
+
+    font-size: 17px;
+
+
+font-size: 20px;
+    border-radius: 100px  50px 100px 50px;
+    box-shadow: 10px 10px  6px  #674804,
+                -10px -10px #ff0,
+    4px 5px #97dadd
+        
+}
+.ppp
+{
+    width: 300px;
+    height: 1000px;
+    background-color: palevioletred;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.cart {
+width: 600px;
+    height: 50px;
+    background-color: aqua;
+    text-align: center;
+    margin-left: 300px;
+    border-radius: 7px;
+    border-color: black;
+    border: 3px solid #ddd;
+    font-size: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    transform: rotate(270deg);
+    animation-duration: 5s;
+    ;}
+.cart:hover
+{transform:rotate(360deg)
+}
+.bu{ float: right ;height: 30px; }
+.face
+{margin: 50px;
+}
+.twit
+{margin:50px;
+}
+
+{
+background: url(https://a-v2.sndcdn.com/assets/images/header/logo-af6f94.png) no-repeat 0 0;
+background-size: 82px 44px;
+display: block;
+height: 46px;
+width: 84px;
+border-width: 1px;
+border-style: solid;
+border-color: rgba(173,73,0,.7)rgba(255,255,255,.15)#ad4900;
+}

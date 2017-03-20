@@ -1,0 +1,156 @@
+\
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+
+/* the navbar   */ 
+
+
+
+.ieee-logo{
+    margin-left: 50px;
+}
+
+
+nav ul a {
+    font-size: 1rem;
+    color: #000;
+    display: block;
+    padding: 0 15px;
+}
+nav{
+    margin-bottom: 5px;
+     background-color:;
+    
+}
+
+
+.input-field{
+    width: 200px;
+    height: 60px;
+   background-color:#;
+}
+#search-nav{
+    color: black;
+}
+
+
+/* ------ the slider  */
+.sp-button {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #000;
+    border-radius: 0%;
+    margin: 5px;
+    display: inline-block;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+/*  about */
+
+.aboutimg{
+    width: 300px;
+    height: 200px;
+    
+}
+.about{
+    margin-top: 90px;
+    margin-bottom: 80px;
+ 
+    
+}
+    
+    
+
+
+
+    
+    /* social  */
+   .social{
+       background-color:aliceblue;
+       padding-top: 20px;
+       
+   }
+
+#twit{
+    margin-left: 70px;
+    margin-right: 40px;
+}
+#face{
+    margin-left: 100px;
+}
+
+
+/* events */
+.card{
+    
+
+    width: 400px;
+   
+    margin: 100px;
+    
+
+    
+    height: auto;
+    border-radius: 9px
+}
+
+
+.card .card-image img {
+    height: 300px;
+    
+    
+}
+
+
+
+.cal{
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 2em;
+    float: right;
+    padding: 10px;
+ opacity: .5;
+    margin: 10px;
+}
+
+
+.link{
+    margin-top: 10px;
+    
+
+}
+
+////////////////////////////////////////
+
+
+.row col m4 {
+   width:100%;
+    margin: 20px;
+}
+
+
+
+.waves-effect-card {
+margin-left:9px;
+}
+.light, footer.page-footer .footer-copyright {
+    
+    line-height: 1.34;
+}
+
+   

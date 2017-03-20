@@ -1,0 +1,113 @@
+body 
+{
+    background:rgb(199, 199, 202);
+    padding-top: 20px;
+    padding-bottom: 50px;
+    height: 2000px;
+    
+}
+<!--navbar-->.our-board
+.navbar-inverse {
+background-color: #3775D5;
+border-color: #0B6391;
+border-radius:90%;
+}<1--menu-->
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+color: #fff;
+background-color: #2216D8;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+color: #fff;
+background-color: #2216D8}
+.navbar-inverse .navbar-nav > li > a 
+{
+color:aliceblue;
+}
+.dropdown-menu > li > a { color: #1234B8;}
+
+.navbar-collapse
+{ margin: 10px;
+    padding: 10px;
+        
+    }
+
+
+.volanteer
+{ margin: 60px;
+    padding: 40px;
+    background-color: rgba(2,2,2,0.4);
+    border-radius: 25px;
+}
+.volanteer h2 span
+{
+    color:deepskyblue;
+    font-size: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.item
+{ height: 500px;
+    width: 1500px;
+    margin: auto;
+    padding: 7x;
+    align-content: center;
+}
+    .navbar-brand {
+background-size: 82px 44px;
+display: block;
+height: 46px;
+width: 120px;
+    }
+
+    
+.our-board
+        { background-image: url(../img/ieee.jpg) ;
+            width: 100%;
+            min-height: 500px;
+        }
+
+.our-board .board
+{
+    background: rgba(2,2,2,0.9);
+    color:blue;
+    min-height: 500px;
+   
+}
+
+.our-board h1
+{padding: 30px;
+    
+}
+
+.ras
+{
+    background: rgba(2,2,2,0.5);
+    font-size: 20px;
+    color: cornsilk;
+    min-height: 200px;
+    border-radius: 9px;
+    margin:auto;
+    line-height: 50px;
+    list-style-type: circle;
+    
+
+}
+.face
+{margin: 10px;
+}
+.twit
+{margin:10px;
+}
+.container
+{margin: auto;
+}

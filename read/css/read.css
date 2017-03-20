@@ -1,0 +1,258 @@
+
+*
+{box-sizing: border-box}
+
+body {background-color:#fff;  min-height: 3000px;
+ ;  margin: auto;
+    background-image: url(../img/1688536_14538188142_211235831_n.jpg)
+    
+  ;width: 1300px;
+font-family: 'Allura';}
+.soc-active:hover {display: inline
+}
+p
+{font-size: 40px;
+ margin-left: 30px;
+ margin-top: 00px;
+    color:gray;
+}
+a{ color: black;}
+.Read 
+{ font-size: 50px;
+  color:blue;
+}
+
+.navbar-collapse
+{ margin: 0px;
+    padding: px;
+        
+    }
+.row
+{margin-right: 600px;
+}
+pp
+{color:black;
+    font-size: 65px;
+    margin-left: 100px;
+    margin-top: -1px;
+}
+.contener1{padding: 5px;}
+
+.navbar
+{
+    background-color:;
+    padding: 5px;
+    border-radius: 16px;
+    font-size: 23px;
+    margin: 20px;
+    
+}
+
+
+.btn btn-default navbar-btn
+{ margin-left: 700px;
+    padding: 78px;
+    float: left;
+}
+
+
+.article 
+{padding-top: 30px;
+    padding-bottom: 0px;
+}
+.article h1 { font-weight: bold}
+
+.article span {
+    font-size: 31px;
+    text-decoration-color:blue;
+    
+}
+.article .carousel-inner
+{min-height: 200px;
+    min-width: ;
+    max-width: ;
+    align: center;
+    margin: px;
+    color: white;
+}
+
+.article .carousel-indicators
+{
+    position: static;
+    margin-left: auto;
+    width: 100%;
+    padding-top: 30px;
+ 
+}
+
+.article .carousel-indicators li
+{width: 60px;
+    height: 60px;
+    opacity:.2 ;
+    border: 3px solid #fff;
+    border-radius: 50%;
+
+    margin: 5px;
+    transition: all .1s ease;
+        
+}
+.article .carousel-indicators li .active
+{opacity: 1;
+    width: 100px;
+    height: 100px;
+     border-radius: 50%;
+     border: 3px solid black;
+    margin: 5px;
+    border-radius: 50%;
+
+
+}
+.article .carousel-indicators li img
+{max-width: 100px;
+     border: 3px solid red;
+}
+
+
+.jumbotron
+{
+    max-width: 850px;
+    max-height: 1100px;
+    overflow: hidden;
+    margin: 10px;
+    border-radius: 9px;
+    box-shadow: 5px;
+    display: table;
+    backface-visibility: hidden;
+    background-color: #fff;
+    font-family: Alex Brush ;
+}
+.seemore
+{
+    background-color: aqua;
+    border: 3px solid black;
+}
+.btn btn-primary btn-lg
+{text-align: right;
+    float: left;
+}
+.dropdown:hover
+{
+    background-color: black;
+}
+
+.thenew
+{background-image:url(../img/) ;
+
+    
+}
+.thenew .article
+{
+    background: rgba(2,2,2,0.2);
+    color:blue;
+    min-height: 500px;
+   
+}
+
+.img-circle1
+{margin: 20px;
+;
+    
+}
+.img-circle
+{margin: 20px;
+;;
+}
+
+/*recomment*/
+
+.rec{align-content: center;}
+.recomend{
+
+    margin: 20px;
+    padding: 20px;
+    ;
+ ;
+    
+    max-height: 300px;
+    overflow: scroll;
+    
+}
+p3{
+box-sizing: 600px;
+}
+.rec1 
+{ border: 1px solid black ;
+    max-height: 300px;
+    overflow: hidden;
+    margin: 30px; 
+}
+
+
+
+
+
+
+
+/*   article1 */
+  div 
+{  display: block;
+    
+
+}
+       .article2
+{ margin-top: 50px;
+    margin-left: 10px;
+    margin-bottom: 80px;
+}
+
+     .article2-item
+{  float: left;
+    width: 22%;
+    display:block;
+    margin-left: 2%;
+    border: 2px solid rgb(234, 234, 239);
+    border-radius: 5%;
+    margin-bottom: 50px;
+}
+
+  .img-item
+{width: 100%;
+    height:150px;
+   border-radius: 5% ;
+}
+
+h4{float: left; margin-left: 5%;}
+h5{ float: right; margin-right: 8%;}
+
+  h4:hover {text-decoration-line: none;}
+.com {color: crimson;}
+
+ #country
+{height: 40px;
+    margin: 70px;
+}
+
+div:hover 
+{ width: 
+    margin-left: ;
+}
+
+
+.star 
+{  margin-left: 12% ; margin-top: 3%;
+}
+
+}
+
+
+
+ .dropdown-menu
+{ overflow: visible;
+}
+ dropdown-toggle:hover 
+{
+    color: black;
+}
+.vedio { margin-left:200px; 
+
+margin-top: 60px}

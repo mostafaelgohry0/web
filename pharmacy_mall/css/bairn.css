@@ -1,0 +1,119 @@
+body 
+{ 
+    align-content: center;
+    background-color: aq;
+    border:   ;
+    margin: inherit;
+    
+}
+
+
+
+
+
+.header 
+{ display:inline-block;
+    border: 1px 
+    border-radius: 7px;
+    margin: 0px;
+    width:1170px;
+ ;
+    w
+    
+    
+
+        
+        
+}
+  
+.head1
+{  display: inline-block;
+    margin-left: 50px;
+    float: left ;
+}
+
+.head2
+{  display: inline-block;
+    text-align: right;
+    float: right;
+    margin: 25px;
+}
+
+
+.head3
+{  display: inline-block;
+;
+    float: right;
+    text-align: right;
+    margin: 25px;
+}
+
+
+#country 
+{  height: 50px;
+    
+    width: 400px;
+    float: right;
+    border-radius:7px; 
+    margin: 30px;
+} 
+
+
+
+.enter 
+{height: 50px;
+    
+    width: 400px;
+    float: right;
+      border-radius:7px; 
+    margin: 30px;
+} 
+
+p{  font-size: 60px;
+  margin-left: 22px;
+margin-top: 10px;}
+
+
+p{  font-size: 65px;
+  margin-left: 22px;
+margin-top: 80px;}
+
+
+.feder{
+    
+    background-color;
+    height: 900px;
+}
+
+
+.contner
+{
+ margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: url(../img/download.jpg)
+}
+
+ background-image: url(../img/ieee.jpg) ;
+            width: 100%;
+            min-height: 500px;
+
+h1
+{ margin-top: 40px
+}
+img 
+{ margin-left: 50px;
+}
+span  
+{  color: crimson;
+    
+    
+}
+
+#col1 
+{ margin-left: 0px;
+} 
+
+.enter{ margin-right: 70px;} 
+
+
+#country { margin-right: 70px;} 

@@ -1,0 +1,450 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Introducing Lollipop, a sweet new take on Android.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PUMP OFF </title>
+
+    <!-- Page styles -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.0.0/material.min.css">
+    <link rel="stylesheet" href="styles.css">
+      
+      <!---------------------------------------------------------------------------->
+      
+      <link rel="stylesheet" type="text/css" href="css/slider-pro.min.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" media="screen"/>
+<link rel="stylesheet" type="text/css" href="css/examples.css" media="screen"/>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.sliderPro.min.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+
+<script type="text/javascript">
+	$( document ).ready(function( $ ) {
+		$( '#example2' ).sliderPro({
+			width: '50%',
+			height: 500,
+			aspectRatio: 1.5,
+			visibleSize: '100%',
+			forceSize: 'fullWidth'
+		});
+
+		// instantiate fancybox when a link is clicked
+		$( '#example2 .sp-image' ).parent( 'a' ).on( 'click', function( event ) {
+			event.preventDefault();
+
+			// check if the clicked link is also used in swiping the slider
+			// by checking if the link has the 'sp-swiping' class attached.
+			// if the slider is not being swiped, open the lightbox programmatically,
+			// at the correct index
+			if ( $( '#example2' ).hasClass( 'sp-swiping' ) === false ) {
+				$.fancybox.open( $( '#example2 .sp-image' ).parent( 'a' ), { index: $( this ).parents( '.sp-slide' ).index() } );
+			}
+		});
+	});
+</script>
+<!--------------------------------jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj------------------------->
+      
+      
+      
+      
+      
+      
+    <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900; 
+        body{
+            background-color: aquamarine !important;
+        }
+        
+        ul{list-style: none;}
+    }
+    </style>
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+
+      <div class="android-header mdl-layout__header mdl-layout__header--waterfall">
+        <div class="mdl-layout__header-row">
+          <span class="android-title mdl-layout-title">
+            <img class="android-logo-image" src="images/android-logo.png">
+          </span>
+          <!-- Add spacer, to align navigation to the right in desktop -->
+          <div class="android-header-spacer mdl-layout-spacer"></div>
+          <div class="android-search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+            <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
+              <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search-field" />
+            </div>
+          </div>
+          <!-- Navigation -->
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href=""> treasure </a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="#android-more-section"> whats pepole say </a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">vedio</a>
+              
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">about</a>
+       
+            </nav>
+          </div>
+        
+          <span class="android-mobile-title mdl-layout-title">
+            <img class="android-logo-image" src="images/android-logo.png">
+          </span>
+        </div>
+      </div>
+
+     
+
+      <div class="android-content mdl-layout__content">
+        <a name="top"> </a>
+        <div class="android-be-together-section mdl-typography--text-center">
+         
+       <!------------8888888888888888888888888888888888888888888888888888888888----------------------->
+            
+            <div id="example2" class="slider-pro">
+		<div class="sp-slides">
+			<div class="sp-slide">
+				<a href="images/1.jpg">
+					<img class="sp-image" src="../src/css/images/blank.gif" 
+						data-src="images/1.jpg"
+						data-retina="images/1.jpg"/>
+				</a>
+				<p class="sp-caption">بدايه  العمل  </p>
+			</div>
+
+	        <div class="sp-slide">
+				<a href="images/2.jpg">
+	        		<img class="sp-image" src="../src/css/images/blank.gif" 
+	        			data-src="images/2.jpg" 
+	        			data-retina="images/2.jpg"/>
+	        	</a>
+	        	<p class="sp-caption">  تقسيم العمل على الفريق  </p>
+			</div>
+
+			<div class="sp-slide">
+				<a href="images/3.jpg">
+					<img class="sp-image" src="../src/css/images/blank.gif" 
+						data-src="images/3.jpg" 
+						data-retina="images/3.jpg"/>
+				</a>
+				<p class="sp-caption">الحفاظ على سير الطريق  </p>
+			</div>
+
+			<div class="sp-slide">
+				<a href="images/4.jpg">
+					<img class="sp-image" src="../src/css/images/blank.gif" 
+						data-src="images/4.jpg" 
+						data-retina="images/4.jpg"/>
+				</a>
+				<p class="sp-caption">الشكل النهائى .</p>
+			</div>
+
+			<div class="sp-slide">
+				<a href="images/5.jpg">
+					<img class="sp-image" src="../src/css/images/blank.gif" 
+						data-src="images/5.jpg" 
+						data-retina="images/5.jpg"/>
+				</a>
+				<p class="sp-caption">نهايه  العمل  ودهان  المطبات .</p>
+			</div>
+
+		
+    </div>
+            
+            
+            <!------------------------------09999999999999999999999999999999999999999999------>
+        
+            
+            
+            
+        
+          <a href="#screens">
+            <button class="android-fab mdl-button mdl-button--colored mdl-js-button mdl-button--fab mdl-js-ripple-effect">
+              <i class="material-icons">expand_more</i>
+            </button>
+          </a>
+        </div>
+          
+          
+          
+          
+          
+        <div class="android-screen-section mdl-typography--text-center">
+          <a name="screens"></a>
+            <div class="mdl-typography--display-1-color-contrast"> <h1> <b>the Treasure &nbsp; &nbsp;  الكنز </b>  </h1></div>
+            
+            
+            
+                <section class="tre" style=" font-size=3em; ">
+           
+                 <h3>    <br> .من أول ما نتولد لحد آخر لحظة في حياتنا   و إحنا بندّور <br>   
+                    بندّور على تحقيق الذات، السعادة، النجاح، الإستقرار و غيره كتير <br>
+                       ! ممكن تقضي عمرك كله و انت بتدور من غير    ما تعرف   <br>         
+                       ان القيمة الحقيقية مش في اللي بتدور عليه، القيمة الحقيقة في طريقك للوصول ليه <br>   
+                      الرحلة ممكن تكون صعبة و مليانه عقبات
+                       <br> و طريقك لحلمك أكيد هيكون مخيف لإنك بتتحدى نفسك <br>
+                       و اللي حواليك في طريق مجهول، بس في الآخر هتوصل و هتبص ورا 
+                    <br>  <br> و هتعرف الكنز الحقيقي فين <br> 
+                     
+                    </h3>
+              </section> 
+                    
+              
+          <div class="android-screens">
+           
+              
+            <div class="android-tablet android-screen">
+            
+                
+            </div>
+              
+        
+              
+              
+            <div class="android-auto android-screen">
+             
+          
+              <a class="android-link mdl-typography--font-regular mdl-typography--text-uppercase mdl-typography--text-left" href=""> </a>
+            </div>
+          </div>
+        </div>
+            
+            
+            
+            
+            
+            
+        <div class="android-wear-section">
+          <div class="android-wear-band">
+            <div class="android-wear-band-text">
+              <div class="mdl-typography--display-2 mdl-typography--font-thin"></div>
+              <p class="mdl-typography--headline mdl-typography--font-thin">
+                
+              </p>
+              <p>
+               
+              </p>
+            </div>
+          </div>
+        </div>
+            
+            
+            
+        <div class="android-customized-section">
+          <div class="android-customized-section-text">
+              <div class="mdl-typography--font-light mdl-typography--display-1-color-contrast"><h2><b>future city &nbsp; &nbsp; مدينه المستقبل </b></h2> </div>
+           <h6 class="mdl-typography--font-light">
+           <br>  مدينة المستقبل، هي مسابقة تقيمها جمعية مهندسي الكهرباء والإلكترونيات فرع مصر  <br>
+                - IEEE Young Professionals Egypt -  بالتعاون مع وزارة التربية والتعليم و <br>
+
+مدينة المستقبل، هي برنامج تدريبي على هيئة مسابقة مدرسية لطلاب المرحلة الإعدادية في جميع المدارس الحكومية والخاصة علي مستوي الجمهورية. حيث توفر المسابقة نموذج محاكاه لبعض التحديات الهندسية الحقيقية مع تطبيقات لها من خلال عدة مراحل.
+
+وحيث أن الفريق فى مسابقة مدينة المستقبل يتكون من مدرس وثلاثة طلاب ومهندس مساعد..
+               
+               <b>... لذلك تهدف المسابقة إلى</b>
+             
+                <br>  توفير فرصة للتفاعل و الاحتكاك بين الطلبة و المدرسين و المهندسين.
+             
+
+ <br>تعريف المجتمع بضوابط و آداب مهنة الهندسة.
+
+   <br> تشجيع وإلهام الطلاب لإستكشاف تحديات مهنة الهندسة.  <br>
+            
+ تنمية المهارات الأساسية مثل:  <br>
+- مهارات العمل في فريق.
+- مهارات حل المشكلات.
+- مهارات التواصل الفعال.
+- مهارات البحث العلمي. 
+
+<br> تنمية مهارات خاصة لدى الطلاب مثل:  <br> 
+- مهارات التفكير الإبداعي. 
+- مهارات العرض والتقديم.
+- مهارات الكتابة والتحدث بالانجليزية.
+- مهارات الكمبيوتر.
+- المهارات الفنية.
+- مهارات إدارة الوقت.
+-مهارات تطبيق العلوم.	 
+               <br>
+
+تنمية قدرة المهندس على توجيه فكر الطالب للوصول الى الحلول للمشكلات .. ايجاد مناخ لتبسيط و تطبيق الفكر الهندسي.
+<br>
+تنمية بعض المهارات لدى المدرسين المشرفين مثل مهارات التعامل مع طلاب المرحلة الإعدادية و القيادة الفعالة لفريق من الطلاب و إدارة الوقت بالإضافة إلى حل المشكلات.
+              <br> 
+               <br>
+              <hr>
+               <br>
+               <br>
+             </h6>
+          </div>
+       
+            
+            
+             <span class="project"  >
+                          <h1> ملخص فكرة المشروع و ما تم تنفيذه </h1>
+           
+                 <h3>فكرة المشروع </h3> 
+  <h4>دهان المطبات من منزل يحيي للمدرسة وذلك يضمن تقليل الحوادث لفترة اختفاء وتلاشي الطلاء بعد عملية التنفيذ </h4>          
+                    
+                 <br>    
+                 
+<h3>ملخص ما تم تنفيذه</h3>
+                 <h4>
+                 
+ قمنا بعمل اجتماع للاتفاق علي خطوات التنفيذ التي سوف نتبعها لتنفيذ المشروع وحددنا للتنفيذ من 1يوليو ل10يوليو  
+                     <br>
+                     واستغرقت مدة التخطيط 3أيام ثم  قمنا باعداد قائمة بلوازم الدهان وتوجه المشرف لأخذ التصاريح من قسم الشرطة والذي ألزمنا بالدهان في الفترة الصباحية وادارة المرور.
+                     <br>
+ 	تم تنظيم المجموعات وانقسمت الي مجموعتان مجموعة للتنظيم ومجموعة للدهان.
+ 	تم شراء اللوازم وبدأنا في التنفيذ يوم الأحد 12يوليو نتيجة لاعتراض ادارة المرور علي الموعد الذي تم تحديد مسبقاً.
+</h4>
+            </span>
+            
+        <div class="android-more-section">
+          <div class="android-section-title mdl-typography--display-1-color-contrast"> <b> بعض اراء  من  شاهد  المشروع </b>  </div>
+          <div class="android-card-container mdl-grid">
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/taxi.jpg">
+              </div>
+              <div class="mdl-card__title">
+                  
+                 <h4 class="mdl-card__title-text"> <b>محمود عبدالنبى</b> </h4> <br><br> <br><br><hr>
+                  
+                  <h5> سائق  تاكسى </h5>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <span class="mdl-typography--font-light mdl-typography--subhead">
+مشروع رائع حيث انه في الليل  يحدث حوادث تقوم بايقاف الطريق لساعات   و ان هذا المشروع الرائع سيكون جيداً اذا عمل حملة لهذا المشروع و عمل فيديوهات  .
+</span>
+              </div>
+              <div class="mdl-card__actions">
+                
+                  
+              </div>
+            </div>
+
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/microbus.jpg">
+              </div>
+              <div class="mdl-card__title">
+                 <h4 class="mdl-card__title-text"><b> أحمد محمد </b></h4> <br><br>
+                  <h5> سائق ميكروباص  </h5>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <span class="mdl-typography--font-light mdl-typography--subhead">الرأي: 
+فكرة ممتازة لتوفير الوقت بسبب حدوث بعض حوادث السيارات و المشاة .
+</span>
+              </div>
+            
+            </div>
+              
+
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/boy-studing.png">
+              </div>
+                
+                
+              <div class="mdl-card__title">
+                 <h4 class="mdl-card__title-text"><b> أحمد عصام  </b></h4> <br><br> <hr>
+                  <h5> طاب ثانوى  </h5>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <span class="mdl-typography--font-light mdl-typography--subhead">
+مشروع رائع حيث انه في الليل حوادث تقوم بايقاف الطريق.
+أقتراحات للتحسين    <br>  
+تصليح عواميد النور بمدينة العاشر من رمضان .
+</span>
+              </div>
+
+            </div>
+
+            <div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--4-col-phone mdl-card mdl-shadow--3dp">
+              <div class="mdl-card__media">
+                <img src="images/engineer%20civil.jpg">
+              </div>
+              <div class="mdl-card__title">
+                 <h4 class="mdl-card__title-text"><b> جرحى تقى   </b></h4> <br><br>
+<hr>
+                  <h5> مهندس  </h5>
+              </div>
+              <div class="mdl-card__supporting-text">
+                <span class="mdl-typography--font-light mdl-typography--subhead">
+مشروع تعاوني رائع يؤدي الي زيادة الانتماء للبلد + توعية المواطنين و المحافظة علي تقليل أخطاء القيادة  .
+أقتراحات للتحسين: <br>
+نشر هذا المشروع علي جميع المدارس ليمتد من دهان المطبات الي دهان الأرصفة و نظافة الشوارع و دهان الأبنية الفرعية  .
+</span>
+              </div>
+           
+            </div>
+          </div>
+        </div>
+
+            
+              <h1><b> our work </b></h1>
+            
+            <iframe width="600px" height="580px" src="https://www.youtube.com/embed/NMumS3y02NQ" frameborder="0" allowfullscreen></iframe>
+            
+            
+            
+            
+            
+            
+        <footer class="android-footer mdl-mega-footer">
+          <div class="mdl-mega-footer--top-section">
+       
+              <a class="mdl-typography--font-light" href="#top">
+                Back to Top
+                <i class="material-icons">expand_less</i>
+              </a>
+            </div>
+          </div>
+
+          <div class="mdl-mega-footer--middle-section">
+            <p class="mdl-typography--font-light"></p>
+            <p class="mdl-typography--font-light">desigent</p>
+          </div>
+
+    
+        </footer>
+      </div>
+    </div>
+    <a href="https://drive.google.com/open?id=1UpexBlF7k6dOPzhxgbyCbttSj4aIfRnrC90mq_QMYUw" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">contact us </a>
+    <script src="js/material.min.js"></script>
+
+
+  </body>
+</html>

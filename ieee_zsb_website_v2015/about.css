@@ -1,0 +1,59 @@
+*
+{box-sizing: border-box}
+
+section
+{background-color:coral;
+ width: 1000px; 
+ height: 1500px;
+border: 1px solid blue;
+    align-content: center;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+
+.header
+{ height:100px;
+    width:auto;
+    margin: 2px solid blue ;
+    border-bottom: 3px solid blue ;
+    backface-visibility: visible;
+}
+body
+
+{
+    background-image: url("img/1688536_1453742138188142_211235831_n.jpg") 
+}
+
+.board 
+{
+    margin: 20px;
+    height: 400px ;
+    width: auto;
+    background-color: azure;
+    
+}
+p{ font-size: 30px; text-align: center;
+    font-style: oblique;  
+    margin:20px; 
+}
+
+.bad 
+{
+    float: left;
+    shape-image-threshold: 9px;
+}
+.ragab 
+{
+    float: left
+}
+
+.galal
+{
+    float:right;
+}
+
+.wiz 
+{
+    float: right;
+}

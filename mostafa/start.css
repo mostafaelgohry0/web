@@ -1,0 +1,37 @@
+
+body{
+    background-image: url(backgronud-min.jpg) ;
+    background-size:cover;
+    background-origin: padding-box;
+    background-attachment:fixed;}
+h1{
+    color:;
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+    width: 29px;
+    height: 29px;
+    
+}
+.name{
+    margin-top: 50px;
+   font-family: 'Tangerine', serif;
+color:rgb(47, 84, 231);
+    font-size: 120px;
+}
+
+.soon{
+font-family: 'Tangerine', serif;
+   font-size: 120px;
+   color:rgb(47, 84, 231);
+    margin-top: 100px;
+    margin-bottom:150px;
+}
+
+.contact{
+    
+    color:rgb(47, 84, 231);
+     text-align: center;
+    
+}
