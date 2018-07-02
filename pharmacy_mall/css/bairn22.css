@@ -1,7 +1,7 @@
 body 
 { 
     align-content: center;
-    background-color: deepskyblue;
+    background-color: ;
     border:   ;
     margin: inherit;
     
@@ -186,6 +186,7 @@ span
     margin-top: 30px;
     height: 30px;
 width: 100px;
+    border-radius: 10px;
 }
 
 #text {
